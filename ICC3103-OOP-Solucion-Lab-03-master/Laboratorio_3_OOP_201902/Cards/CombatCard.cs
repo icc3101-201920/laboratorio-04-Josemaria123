@@ -14,7 +14,7 @@ namespace Laboratorio_3_OOP_201902.Cards
         public CombatCard(string name, string type, string effect, int attackPoints, bool hero)
         {
             Name = name;
-            Type = type;
+            EnumType = type;
             Effect = effect;
             AttackPoints = attackPoints;
             Hero = hero;

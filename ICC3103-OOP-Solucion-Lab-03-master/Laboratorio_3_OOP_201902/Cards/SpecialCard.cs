@@ -25,7 +25,7 @@ namespace Laboratorio_3_OOP_201902.Cards
         public SpecialCard(string name, string type, string effect)
         {
             Name = name;
-            Type = type;
+            EnumType = type;
             Effect = effect;
             BuffType = null;
         }
